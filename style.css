@@ -1,0 +1,41 @@
+header {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.dropdown {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+.dropdown:hover {
+    background-color: #3e8e41;
+}
+
+.menu {
+    display: none;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 0px 0px 5px -1px;
+}
+
+.menu button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+header:hover .menu {
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+}
